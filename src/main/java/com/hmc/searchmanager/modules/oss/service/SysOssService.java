@@ -1,6 +1,6 @@
 package com.hmc.searchmanager.modules.oss.service;
 
-import io.renren.modules.oss.entity.SysOssEntity;
+import com.hmc.searchmanager.modules.oss.entity.SysOssEntity;
 
 import java.util.List;
 import java.util.Map;
@@ -8,9 +8,7 @@ import java.util.Map;
 /**
  * 文件上传
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-25 12:13:26
+ * @author liangchangchun
  */
 public interface SysOssService {
 	

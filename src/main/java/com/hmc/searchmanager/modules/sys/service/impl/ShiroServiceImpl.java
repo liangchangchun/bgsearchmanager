@@ -1,13 +1,13 @@
 package com.hmc.searchmanager.modules.sys.service.impl;
 
-import io.renren.common.utils.Constant;
-import io.renren.modules.sys.dao.SysMenuDao;
-import io.renren.modules.sys.dao.SysUserDao;
-import io.renren.modules.sys.dao.SysUserTokenDao;
-import io.renren.modules.sys.entity.SysMenuEntity;
-import io.renren.modules.sys.entity.SysUserEntity;
-import io.renren.modules.sys.entity.SysUserTokenEntity;
-import io.renren.modules.sys.service.ShiroService;
+import com.hmc.searchmanager.common.utils.Constant;
+import com.hmc.searchmanager.modules.sys.dao.SysMenuDao;
+import com.hmc.searchmanager.modules.sys.dao.SysUserDao;
+import com.hmc.searchmanager.modules.sys.dao.SysUserTokenDao;
+import com.hmc.searchmanager.modules.sys.entity.SysMenuEntity;
+import com.hmc.searchmanager.modules.sys.entity.SysUserEntity;
+import com.hmc.searchmanager.modules.sys.entity.SysUserTokenEntity;
+import com.hmc.searchmanager.modules.sys.service.ShiroService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

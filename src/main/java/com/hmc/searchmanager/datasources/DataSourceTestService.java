@@ -1,8 +1,8 @@
 package com.hmc.searchmanager.datasources;
 
 import com.hmc.searchmanager.datasources.annotation.DataSource;
-import io.renren.modules.app.entity.UserEntity;
-import io.renren.modules.app.service.UserService;
+import com.hmc.searchmanager.modules.app.entity.UserEntity;
+import com.hmc.searchmanager.modules.app.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

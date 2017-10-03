@@ -1,8 +1,8 @@
 package com.hmc.searchmanager.modules.sys.oauth2;
 
-import io.renren.modules.sys.entity.SysUserEntity;
-import io.renren.modules.sys.entity.SysUserTokenEntity;
-import io.renren.modules.sys.service.ShiroService;
+import com.hmc.searchmanager.modules.sys.entity.SysUserEntity;
+import com.hmc.searchmanager.modules.sys.entity.SysUserTokenEntity;
+import com.hmc.searchmanager.modules.sys.service.ShiroService;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
@@ -16,9 +16,7 @@ import java.util.Set;
 /**
  * 认证
  *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-05-20 14:00
+ * @author liangchangchun
  */
 @Component
 public class OAuth2Realm extends AuthorizingRealm {

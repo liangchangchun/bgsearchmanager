@@ -1,8 +1,8 @@
 package com.hmc.searchmanager.modules.oss.cloud;
 
-import io.renren.common.validator.group.AliyunGroup;
-import io.renren.common.validator.group.QcloudGroup;
-import io.renren.common.validator.group.QiniuGroup;
+import com.hmc.searchmanager.common.validator.group.AliyunGroup;
+import com.hmc.searchmanager.common.validator.group.QcloudGroup;
+import com.hmc.searchmanager.common.validator.group.QiniuGroup;
 import org.hibernate.validator.constraints.NotBlank;
 import org.hibernate.validator.constraints.Range;
 import org.hibernate.validator.constraints.URL;
@@ -12,9 +12,7 @@ import java.io.Serializable;
 
 /**
  * 云存储配置信息
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-25 16:12
+ * @author liangchangchun
  */
 public class CloudStorageConfig implements Serializable {
     private static final long serialVersionUID = 1L;

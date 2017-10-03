@@ -1,14 +1,14 @@
 package com.hmc.searchmanager.modules.sys.controller;
 
-import io.renren.common.annotation.SysLog;
-import io.renren.modules.sys.entity.SysRoleEntity;
-import io.renren.modules.sys.service.SysRoleMenuService;
-import io.renren.modules.sys.service.SysRoleService;
-import io.renren.common.utils.Constant;
-import io.renren.common.utils.PageUtils;
-import io.renren.common.utils.Query;
-import io.renren.common.utils.R;
-import io.renren.common.validator.ValidatorUtils;
+import com.hmc.searchmanager.common.annotation.SysLog;
+import com.hmc.searchmanager.modules.sys.entity.SysRoleEntity;
+import com.hmc.searchmanager.modules.sys.service.SysRoleMenuService;
+import com.hmc.searchmanager.modules.sys.service.SysRoleService;
+import com.hmc.searchmanager.common.utils.Constant;
+import com.hmc.searchmanager.common.utils.PageUtils;
+import com.hmc.searchmanager.common.utils.Query;
+import com.hmc.searchmanager.common.utils.R;
+import com.hmc.searchmanager.common.validator.ValidatorUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -20,9 +20,7 @@ import java.util.Map;
 /**
  * 角色管理
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年11月8日 下午2:18:33
+ * @author liangchangchun
  */
 @RestController
 @RequestMapping("/sys/role")

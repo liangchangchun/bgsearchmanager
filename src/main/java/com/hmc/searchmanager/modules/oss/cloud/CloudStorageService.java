@@ -1,6 +1,6 @@
 package com.hmc.searchmanager.modules.oss.cloud;
 
-import io.renren.common.utils.DateUtils;
+import com.hmc.searchmanager.common.utils.DateUtils;
 import org.apache.commons.lang.StringUtils;
 
 import java.io.InputStream;
@@ -9,9 +9,7 @@ import java.util.UUID;
 
 /**
  * 云存储(支持七牛、阿里云、腾讯云、又拍云)
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-25 14:58
+ * @author liangchangchun
  */
 public abstract class CloudStorageService {
     /** 云存储配置信息 */

@@ -1,12 +1,12 @@
 package com.hmc.searchmanager.modules.sys.service.impl;
 
-import io.renren.common.exception.RRException;
-import io.renren.common.utils.Constant;
-import io.renren.modules.sys.dao.SysUserDao;
-import io.renren.modules.sys.entity.SysUserEntity;
-import io.renren.modules.sys.service.SysRoleService;
-import io.renren.modules.sys.service.SysUserRoleService;
-import io.renren.modules.sys.service.SysUserService;
+import com.hmc.searchmanager.common.exception.RRException;
+import com.hmc.searchmanager.common.utils.Constant;
+import com.hmc.searchmanager.modules.sys.dao.SysUserDao;
+import com.hmc.searchmanager.modules.sys.entity.SysUserEntity;
+import com.hmc.searchmanager.modules.sys.service.SysRoleService;
+import com.hmc.searchmanager.modules.sys.service.SysUserRoleService;
+import com.hmc.searchmanager.modules.sys.service.SysUserService;
 import org.apache.commons.lang.RandomStringUtils;
 import org.apache.commons.lang.StringUtils;
 
@@ -25,9 +25,7 @@ import java.util.Map;
 /**
  * 系统用户
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:46:09
+ * @author liangchangchun
  */
 @Service("sysUserService")
 public class SysUserServiceImpl implements SysUserService {

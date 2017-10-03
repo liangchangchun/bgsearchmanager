@@ -5,7 +5,7 @@ import com.qcloud.cos.COSClient;
 import com.qcloud.cos.ClientConfig;
 import com.qcloud.cos.request.UploadFileRequest;
 import com.qcloud.cos.sign.Credentials;
-import io.renren.common.exception.RRException;
+import com.hmc.searchmanager.common.exception.RRException;
 import net.sf.json.JSONObject;
 import org.apache.commons.io.IOUtils;
 
@@ -14,9 +14,7 @@ import java.io.InputStream;
 
 /**
  * 腾讯云存储
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-26 20:51
+ * @author liangchangchun
  */
 public class QcloudCloudStorageService extends CloudStorageService {
     private COSClient client;

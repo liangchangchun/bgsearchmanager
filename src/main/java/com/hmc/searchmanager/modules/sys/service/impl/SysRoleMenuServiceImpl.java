@@ -1,7 +1,7 @@
 package com.hmc.searchmanager.modules.sys.service.impl;
 
-import io.renren.modules.sys.dao.SysRoleMenuDao;
-import io.renren.modules.sys.service.SysRoleMenuService;
+import com.hmc.searchmanager.modules.sys.dao.SysRoleMenuDao;
+import com.hmc.searchmanager.modules.sys.service.SysRoleMenuService;
 
 import java.util.HashMap;
 import java.util.List;
@@ -16,9 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * 角色与菜单对应关系
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:44:35
+ * @author liangchangchun
  */
 @Service("sysRoleMenuService")
 public class SysRoleMenuServiceImpl implements SysRoleMenuService {

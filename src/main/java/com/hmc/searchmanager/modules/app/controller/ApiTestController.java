@@ -1,10 +1,10 @@
 package com.hmc.searchmanager.modules.app.controller;
 
 
-import io.renren.common.utils.R;
-import io.renren.modules.app.annotation.Login;
-import io.renren.modules.app.annotation.LoginUser;
-import io.renren.modules.app.entity.UserEntity;
+import com.hmc.searchmanager.common.utils.R;
+import com.hmc.searchmanager.modules.app.annotation.Login;
+import com.hmc.searchmanager.modules.app.annotation.LoginUser;
+import com.hmc.searchmanager.modules.app.entity.UserEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,9 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * APP测试接口
  *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-23 15:47
+ * @author liangchangchun
  */
 @RestController
 @RequestMapping("/app")

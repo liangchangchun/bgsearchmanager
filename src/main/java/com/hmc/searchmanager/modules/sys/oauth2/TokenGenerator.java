@@ -1,6 +1,6 @@
 package com.hmc.searchmanager.modules.sys.oauth2;
 
-import io.renren.common.exception.RRException;
+import com.hmc.searchmanager.common.exception.RRException;
 
 import java.security.MessageDigest;
 import java.util.UUID;
@@ -8,9 +8,7 @@ import java.util.UUID;
 /**
  * 生成token
  *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-05-20 14:41
+ * @author liangchangchun
  */
 public class TokenGenerator {
 

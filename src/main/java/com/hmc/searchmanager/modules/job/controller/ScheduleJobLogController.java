@@ -1,10 +1,10 @@
 package com.hmc.searchmanager.modules.job.controller;
 
-import io.renren.modules.job.entity.ScheduleJobLogEntity;
-import io.renren.modules.job.service.ScheduleJobLogService;
-import io.renren.common.utils.PageUtils;
-import io.renren.common.utils.Query;
-import io.renren.common.utils.R;
+import com.hmc.searchmanager.modules.job.entity.ScheduleJobLogEntity;
+import com.hmc.searchmanager.modules.job.service.ScheduleJobLogService;
+import com.hmc.searchmanager.common.utils.PageUtils;
+import com.hmc.searchmanager.common.utils.Query;
+import com.hmc.searchmanager.common.utils.R;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,9 +18,7 @@ import java.util.Map;
 /**
  * 定时任务日志
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年12月1日 下午10:39:52
+ * @author liangchangchun
  */
 @RestController
 @RequestMapping("/sys/scheduleLog")

@@ -1,6 +1,6 @@
 package com.hmc.searchmanager.modules.sys.service;
 
-import io.renren.modules.sys.entity.SysRoleEntity;
+import com.hmc.searchmanager.modules.sys.entity.SysRoleEntity;
 
 import java.util.List;
 import java.util.Map;
@@ -9,9 +9,7 @@ import java.util.Map;
 /**
  * 角色
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:42:52
+ * @author liangchangchun
  */
 public interface SysRoleService {
 	

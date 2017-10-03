@@ -1,6 +1,6 @@
 package com.hmc.searchmanager.modules.sys.dao;
 
-import io.renren.modules.sys.entity.SysMenuEntity;
+import com.hmc.searchmanager.modules.sys.entity.SysMenuEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -8,9 +8,7 @@ import java.util.List;
 /**
  * 菜单管理
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:33:01
+ * @author liangchangchun
  */
 @Mapper
 public interface SysMenuDao extends BaseDao<SysMenuEntity> {

@@ -2,11 +2,11 @@ package com.hmc.searchmanager.modules.sys.controller;
 
 import com.google.code.kaptcha.Constants;
 import com.google.code.kaptcha.Producer;
-import io.renren.common.utils.R;
-import io.renren.common.utils.ShiroUtils;
-import io.renren.modules.sys.entity.SysUserEntity;
-import io.renren.modules.sys.service.SysUserService;
-import io.renren.modules.sys.service.SysUserTokenService;
+import com.hmc.searchmanager.common.utils.R;
+import com.hmc.searchmanager.common.utils.ShiroUtils;
+import com.hmc.searchmanager.modules.sys.entity.SysUserEntity;
+import com.hmc.searchmanager.modules.sys.service.SysUserService;
+import com.hmc.searchmanager.modules.sys.service.SysUserTokenService;
 import org.apache.commons.io.IOUtils;
 import org.apache.shiro.crypto.hash.Sha256Hash;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,9 +25,7 @@ import java.util.Map;
 /**
  * 登录相关
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年11月10日 下午1:15:31
+ * @author liangchangchun
  */
 @RestController
 public class SysLoginController extends AbstractController {

@@ -6,9 +6,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Map;
 
-import io.renren.modules.oss.dao.SysOssDao;
-import io.renren.modules.oss.entity.SysOssEntity;
-import io.renren.modules.oss.service.SysOssService;
+import com.hmc.searchmanager.modules.oss.dao.SysOssDao;
+import com.hmc.searchmanager.modules.oss.entity.SysOssEntity;
+import com.hmc.searchmanager.modules.oss.service.SysOssService;
 
 
 

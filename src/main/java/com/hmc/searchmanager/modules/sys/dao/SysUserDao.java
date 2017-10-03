@@ -1,6 +1,6 @@
 package com.hmc.searchmanager.modules.sys.dao;
 
-import io.renren.modules.sys.entity.SysUserEntity;
+import com.hmc.searchmanager.modules.sys.entity.SysUserEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -9,9 +9,7 @@ import java.util.Map;
 /**
  * 系统用户
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:34:11
+ * @author liangchangchun
  */
 @Mapper
 public interface SysUserDao extends BaseDao<SysUserEntity> {

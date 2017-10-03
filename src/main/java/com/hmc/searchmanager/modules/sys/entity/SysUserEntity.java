@@ -1,7 +1,7 @@
 package com.hmc.searchmanager.modules.sys.entity;
 
-import io.renren.common.validator.group.AddGroup;
-import io.renren.common.validator.group.UpdateGroup;
+import com.hmc.searchmanager.common.validator.group.AddGroup;
+import com.hmc.searchmanager.common.validator.group.UpdateGroup;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotBlank;
 
@@ -12,9 +12,7 @@ import java.util.List;
 /**
  * 系统用户
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:28:55
+ * @author liangchangchun
  */
 public class SysUserEntity implements Serializable {
 	private static final long serialVersionUID = 1L;

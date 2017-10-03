@@ -1,13 +1,13 @@
 package com.hmc.searchmanager.modules.sys.service.impl;
 
-import io.renren.modules.sys.dao.SysRoleDao;
-import io.renren.modules.sys.entity.SysRoleEntity;
-import io.renren.modules.sys.service.SysRoleMenuService;
-import io.renren.modules.sys.service.SysRoleService;
-import io.renren.modules.sys.service.SysUserRoleService;
-import io.renren.modules.sys.service.SysUserService;
-import io.renren.common.utils.Constant;
-import io.renren.common.exception.RRException;
+import com.hmc.searchmanager.modules.sys.dao.SysRoleDao;
+import com.hmc.searchmanager.modules.sys.entity.SysRoleEntity;
+import com.hmc.searchmanager.modules.sys.service.SysRoleMenuService;
+import com.hmc.searchmanager.modules.sys.service.SysRoleService;
+import com.hmc.searchmanager.modules.sys.service.SysUserRoleService;
+import com.hmc.searchmanager.modules.sys.service.SysUserService;
+import com.hmc.searchmanager.common.utils.Constant;
+import com.hmc.searchmanager.common.exception.RRException;
 
 import java.util.Date;
 import java.util.List;
@@ -22,9 +22,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * 角色
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:45:12
+ * @author liangchangchun
  */
 @Service("sysRoleService")
 public class SysRoleServiceImpl implements SysRoleService {

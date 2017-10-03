@@ -1,15 +1,13 @@
 package com.hmc.searchmanager.modules.sys.dao;
 
-import io.renren.modules.sys.entity.SysConfigEntity;
+import com.hmc.searchmanager.modules.sys.entity.SysConfigEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
  * 系统配置信息
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年12月4日 下午6:46:16
+ * @author liangchangchun
  */
 @Mapper
 public interface SysConfigDao extends BaseDao<SysConfigEntity> {

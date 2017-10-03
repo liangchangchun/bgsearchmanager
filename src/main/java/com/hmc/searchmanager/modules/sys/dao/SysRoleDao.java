@@ -1,6 +1,6 @@
 package com.hmc.searchmanager.modules.sys.dao;
 
-import io.renren.modules.sys.entity.SysRoleEntity;
+import com.hmc.searchmanager.modules.sys.entity.SysRoleEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -8,9 +8,7 @@ import java.util.List;
 /**
  * 角色管理
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:33:33
+ * @author liangchangchun
  */
 @Mapper
 public interface SysRoleDao extends BaseDao<SysRoleEntity> {

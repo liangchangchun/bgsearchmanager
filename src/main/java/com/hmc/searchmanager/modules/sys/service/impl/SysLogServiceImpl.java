@@ -1,8 +1,8 @@
 package com.hmc.searchmanager.modules.sys.service.impl;
 
-import io.renren.modules.sys.dao.SysLogDao;
-import io.renren.modules.sys.entity.SysLogEntity;
-import io.renren.modules.sys.service.SysLogService;
+import com.hmc.searchmanager.modules.sys.dao.SysLogDao;
+import com.hmc.searchmanager.modules.sys.entity.SysLogEntity;
+import com.hmc.searchmanager.modules.sys.service.SysLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

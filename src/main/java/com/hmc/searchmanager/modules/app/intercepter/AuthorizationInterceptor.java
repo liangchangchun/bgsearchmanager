@@ -2,9 +2,9 @@ package com.hmc.searchmanager.modules.app.intercepter;
 
 
 import io.jsonwebtoken.Claims;
-import io.renren.common.exception.RRException;
-import io.renren.common.utils.JwtUtils;
-import io.renren.modules.app.annotation.Login;
+import com.hmc.searchmanager.common.exception.RRException;
+import com.hmc.searchmanager.common.utils.JwtUtils;
+import com.hmc.searchmanager.modules.app.annotation.Login;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -17,9 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 权限(Token)验证
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-23 15:38
+ * @author liangchangchun
  */
 @Component
 public class AuthorizationInterceptor extends HandlerInterceptorAdapter {

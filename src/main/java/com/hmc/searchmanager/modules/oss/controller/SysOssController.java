@@ -1,17 +1,17 @@
 package com.hmc.searchmanager.modules.oss.controller;
 
 import com.google.gson.Gson;
-import io.renren.common.exception.RRException;
-import io.renren.common.utils.*;
-import io.renren.common.validator.ValidatorUtils;
-import io.renren.common.validator.group.AliyunGroup;
-import io.renren.common.validator.group.QcloudGroup;
-import io.renren.common.validator.group.QiniuGroup;
-import io.renren.modules.oss.cloud.CloudStorageConfig;
-import io.renren.modules.oss.cloud.OSSFactory;
-import io.renren.modules.oss.entity.SysOssEntity;
-import io.renren.modules.oss.service.SysOssService;
-import io.renren.modules.sys.service.SysConfigService;
+import com.hmc.searchmanager.common.exception.RRException;
+import com.hmc.searchmanager.common.utils.*;
+import com.hmc.searchmanager.common.validator.ValidatorUtils;
+import com.hmc.searchmanager.common.validator.group.AliyunGroup;
+import com.hmc.searchmanager.common.validator.group.QcloudGroup;
+import com.hmc.searchmanager.common.validator.group.QiniuGroup;
+import com.hmc.searchmanager.modules.oss.cloud.CloudStorageConfig;
+import com.hmc.searchmanager.modules.oss.cloud.OSSFactory;
+import com.hmc.searchmanager.modules.oss.entity.SysOssEntity;
+import com.hmc.searchmanager.modules.oss.service.SysOssService;
+import com.hmc.searchmanager.modules.sys.service.SysConfigService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -28,9 +28,7 @@ import java.util.Map;
 /**
  * 文件上传
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-25 12:13:26
+ * @author liangchangchun
  */
 @RestController
 @RequestMapping("sys/oss")

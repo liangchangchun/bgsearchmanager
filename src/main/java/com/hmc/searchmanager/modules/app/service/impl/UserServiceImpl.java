@@ -1,11 +1,11 @@
 package com.hmc.searchmanager.modules.app.service.impl;
 
 
-import io.renren.common.exception.RRException;
-import io.renren.common.validator.Assert;
-import io.renren.modules.app.dao.UserDao;
-import io.renren.modules.app.entity.UserEntity;
-import io.renren.modules.app.service.UserService;
+import com.hmc.searchmanager.common.exception.RRException;
+import com.hmc.searchmanager.common.validator.Assert;
+import com.hmc.searchmanager.modules.app.dao.UserDao;
+import com.hmc.searchmanager.modules.app.entity.UserEntity;
+import com.hmc.searchmanager.modules.app.service.UserService;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

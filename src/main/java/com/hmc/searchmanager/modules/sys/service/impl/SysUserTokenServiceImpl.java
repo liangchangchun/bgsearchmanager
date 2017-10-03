@@ -1,10 +1,10 @@
 package com.hmc.searchmanager.modules.sys.service.impl;
 
-import io.renren.modules.sys.dao.SysUserTokenDao;
-import io.renren.modules.sys.entity.SysUserTokenEntity;
-import io.renren.modules.sys.service.SysUserTokenService;
-import io.renren.common.utils.R;
-import io.renren.modules.sys.oauth2.TokenGenerator;
+import com.hmc.searchmanager.modules.sys.dao.SysUserTokenDao;
+import com.hmc.searchmanager.modules.sys.entity.SysUserTokenEntity;
+import com.hmc.searchmanager.modules.sys.service.SysUserTokenService;
+import com.hmc.searchmanager.common.utils.R;
+import com.hmc.searchmanager.modules.sys.oauth2.TokenGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

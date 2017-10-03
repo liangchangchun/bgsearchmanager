@@ -5,7 +5,7 @@ import com.qiniu.http.Response;
 import com.qiniu.storage.Configuration;
 import com.qiniu.storage.UploadManager;
 import com.qiniu.util.Auth;
-import io.renren.common.exception.RRException;
+import com.hmc.searchmanager.common.exception.RRException;
 import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
@@ -13,9 +13,7 @@ import java.io.InputStream;
 
 /**
  * 七牛云存储
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-25 15:41
+ * @author liangchangchun
  */
 public class QiniuCloudStorageService extends CloudStorageService {
     private UploadManager uploadManager;

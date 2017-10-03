@@ -1,7 +1,7 @@
 package com.hmc.searchmanager.modules.sys.oauth2;
 
 import com.google.gson.Gson;
-import io.renren.common.utils.R;
+import com.hmc.searchmanager.common.utils.R;
 import org.apache.commons.lang.StringUtils;
 import org.apache.http.HttpStatus;
 import org.apache.shiro.authc.AuthenticationException;
@@ -17,9 +17,7 @@ import java.io.IOException;
 /**
  * oauth2过滤器
  *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-05-20 13:00
+ * @author liangchangchun
  */
 public class OAuth2Filter extends AuthenticatingFilter {
 

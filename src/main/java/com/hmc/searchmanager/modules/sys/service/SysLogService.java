@@ -1,6 +1,6 @@
 package com.hmc.searchmanager.modules.sys.service;
 
-import io.renren.modules.sys.entity.SysLogEntity;
+import com.hmc.searchmanager.modules.sys.entity.SysLogEntity;
 
 import java.util.List;
 import java.util.Map;
@@ -8,9 +8,7 @@ import java.util.Map;
 /**
  * 系统日志
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-08 10:40:56
+ * @author liangchangchun
  */
 public interface SysLogService {
 	

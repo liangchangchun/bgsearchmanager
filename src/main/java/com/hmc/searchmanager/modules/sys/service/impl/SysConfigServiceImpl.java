@@ -1,11 +1,11 @@
 package com.hmc.searchmanager.modules.sys.service.impl;
 
 import com.google.gson.Gson;
-import io.renren.common.exception.RRException;
-import io.renren.modules.sys.dao.SysConfigDao;
-import io.renren.modules.sys.entity.SysConfigEntity;
-import io.renren.modules.sys.redis.SysConfigRedis;
-import io.renren.modules.sys.service.SysConfigService;
+import com.hmc.searchmanager.common.exception.RRException;
+import com.hmc.searchmanager.modules.sys.dao.SysConfigDao;
+import com.hmc.searchmanager.modules.sys.entity.SysConfigEntity;
+import com.hmc.searchmanager.modules.sys.redis.SysConfigRedis;
+import com.hmc.searchmanager.modules.sys.service.SysConfigService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

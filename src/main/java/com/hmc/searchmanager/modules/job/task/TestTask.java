@@ -1,7 +1,7 @@
 package com.hmc.searchmanager.modules.job.task;
 
-import io.renren.modules.sys.entity.SysUserEntity;
-import io.renren.modules.sys.service.SysUserService;
+import com.hmc.searchmanager.modules.sys.entity.SysUserEntity;
+import com.hmc.searchmanager.modules.sys.service.SysUserService;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.slf4j.Logger;
@@ -14,9 +14,7 @@ import org.springframework.stereotype.Component;
  * 
  * testTask为spring bean的名称
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年11月30日 下午1:34:24
+ * @author liangchangchun
  */
 @Component("testTask")
 public class TestTask {

@@ -1,9 +1,9 @@
 package com.hmc.searchmanager.modules.app.resolve;
 
-import io.renren.modules.app.annotation.LoginUser;
-import io.renren.modules.app.entity.UserEntity;
-import io.renren.modules.app.interceptor.AuthorizationInterceptor;
-import io.renren.modules.app.service.UserService;
+import com.hmc.searchmanager.modules.app.annotation.LoginUser;
+import com.hmc.searchmanager.modules.app.entity.UserEntity;
+import com.hmc.searchmanager.modules.app.intercepter.AuthorizationInterceptor;
+import com.hmc.searchmanager.modules.app.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Component;
@@ -15,9 +15,7 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 
 /**
  * 有@LoginUser注解的方法参数，注入当前登录用户
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-23 22:02
+ * @author liangchangchun
  */
 @Component
 public class LoginUserHandlerMethodArgumentResolver implements HandlerMethodArgumentResolver {

@@ -1,12 +1,12 @@
 package com.hmc.searchmanager.modules.sys.service.impl;
 
-import io.renren.common.utils.Constant;
-import io.renren.modules.sys.dao.SysMenuDao;
-import io.renren.modules.sys.entity.SysMenuEntity;
-import io.renren.modules.sys.service.SysMenuService;
-import io.renren.modules.sys.service.SysRoleMenuService;
-import io.renren.modules.sys.service.SysUserService;
-import io.renren.common.utils.Constant.MenuType;
+import com.hmc.searchmanager.common.utils.Constant;
+import com.hmc.searchmanager.modules.sys.dao.SysMenuDao;
+import com.hmc.searchmanager.modules.sys.entity.SysMenuEntity;
+import com.hmc.searchmanager.modules.sys.service.SysMenuService;
+import com.hmc.searchmanager.modules.sys.service.SysRoleMenuService;
+import com.hmc.searchmanager.modules.sys.service.SysUserService;
+import com.hmc.searchmanager.common.utils.Constant.MenuType;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

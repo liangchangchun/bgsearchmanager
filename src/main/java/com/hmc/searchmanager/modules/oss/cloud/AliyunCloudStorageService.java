@@ -1,16 +1,14 @@
 package com.hmc.searchmanager.modules.oss.cloud;
 
 import com.aliyun.oss.OSSClient;
-import io.renren.common.exception.RRException;
+import com.hmc.searchmanager.common.exception.RRException;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 
 /**
  * 阿里云存储
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-26 16:22
+ * @author liangchangchun
  */
 public class AliyunCloudStorageService extends CloudStorageService {
     private OSSClient client;

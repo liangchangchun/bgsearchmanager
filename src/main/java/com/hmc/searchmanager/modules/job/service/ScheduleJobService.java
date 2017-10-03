@@ -1,6 +1,6 @@
 package com.hmc.searchmanager.modules.job.service;
 
-import io.renren.modules.job.entity.ScheduleJobEntity;
+import com.hmc.searchmanager.modules.job.entity.ScheduleJobEntity;
 
 import java.util.List;
 import java.util.Map;
@@ -8,9 +8,7 @@ import java.util.Map;
 /**
  * 定时任务
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年11月28日 上午9:55:32
+ * @author liangchangchun
  */
 public interface ScheduleJobService {
 

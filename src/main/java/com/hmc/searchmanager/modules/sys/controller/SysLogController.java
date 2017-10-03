@@ -1,10 +1,10 @@
 package com.hmc.searchmanager.modules.sys.controller;
 
-import io.renren.modules.sys.entity.SysLogEntity;
-import io.renren.modules.sys.service.SysLogService;
-import io.renren.common.utils.PageUtils;
-import io.renren.common.utils.Query;
-import io.renren.common.utils.R;
+import com.hmc.searchmanager.modules.sys.entity.SysLogEntity;
+import com.hmc.searchmanager.modules.sys.service.SysLogService;
+import com.hmc.searchmanager.common.utils.PageUtils;
+import com.hmc.searchmanager.common.utils.Query;
+import com.hmc.searchmanager.common.utils.R;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,9 +19,7 @@ import java.util.Map;
 /**
  * 系统日志
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-08 10:40:56
+ * @author liangchangchun
  */
 @Controller
 @RequestMapping("/sys/log")

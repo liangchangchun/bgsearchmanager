@@ -1,9 +1,9 @@
 package com.hmc.searchmanager.modules.app.controller;
 
 
-import io.renren.common.utils.R;
-import io.renren.common.validator.Assert;
-import io.renren.modules.app.service.UserService;
+import com.hmc.searchmanager.common.utils.R;
+import com.hmc.searchmanager.common.validator.Assert;
+import com.hmc.searchmanager.modules.app.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,9 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 注册
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-26 17:27
+ * @author liangchangchun
  */
 @RestController
 @RequestMapping("/app")

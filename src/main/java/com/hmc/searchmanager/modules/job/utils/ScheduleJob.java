@@ -1,10 +1,10 @@
 package com.hmc.searchmanager.modules.job.utils;
 
 import com.google.gson.Gson;
-import io.renren.modules.job.entity.ScheduleJobEntity;
-import io.renren.modules.job.entity.ScheduleJobLogEntity;
-import io.renren.modules.job.service.ScheduleJobLogService;
-import io.renren.common.utils.SpringContextUtils;
+import com.hmc.searchmanager.modules.job.entity.ScheduleJobEntity;
+import com.hmc.searchmanager.modules.job.entity.ScheduleJobLogEntity;
+import com.hmc.searchmanager.modules.job.service.ScheduleJobLogService;
+import com.hmc.searchmanager.common.utils.SpringContextUtils;
 import org.apache.commons.lang.StringUtils;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
@@ -21,9 +21,7 @@ import java.util.concurrent.Future;
 /**
  * 定时任务
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年11月30日 下午12:44:21
+ * @author liangchangchun
  */
 public class ScheduleJob extends QuartzJobBean {
 	private Logger logger = LoggerFactory.getLogger(getClass());

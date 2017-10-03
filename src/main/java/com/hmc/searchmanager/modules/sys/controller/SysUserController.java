@@ -1,17 +1,17 @@
 package com.hmc.searchmanager.modules.sys.controller;
 
-import io.renren.common.annotation.SysLog;
-import io.renren.common.utils.Constant;
-import io.renren.common.utils.PageUtils;
-import io.renren.common.utils.Query;
-import io.renren.common.utils.R;
-import io.renren.common.validator.Assert;
-import io.renren.common.validator.ValidatorUtils;
-import io.renren.common.validator.group.AddGroup;
-import io.renren.common.validator.group.UpdateGroup;
-import io.renren.modules.sys.entity.SysUserEntity;
-import io.renren.modules.sys.service.SysUserRoleService;
-import io.renren.modules.sys.service.SysUserService;
+import com.hmc.searchmanager.common.annotation.SysLog;
+import com.hmc.searchmanager.common.utils.Constant;
+import com.hmc.searchmanager.common.utils.PageUtils;
+import com.hmc.searchmanager.common.utils.Query;
+import com.hmc.searchmanager.common.utils.R;
+import com.hmc.searchmanager.common.validator.Assert;
+import com.hmc.searchmanager.common.validator.ValidatorUtils;
+import com.hmc.searchmanager.common.validator.group.AddGroup;
+import com.hmc.searchmanager.common.validator.group.UpdateGroup;
+import com.hmc.searchmanager.modules.sys.entity.SysUserEntity;
+import com.hmc.searchmanager.modules.sys.service.SysUserRoleService;
+import com.hmc.searchmanager.modules.sys.service.SysUserService;
 import org.apache.commons.lang.ArrayUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.crypto.hash.Sha256Hash;
@@ -24,9 +24,7 @@ import java.util.Map;
 /**
  * 系统用户
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年10月31日 上午10:40:10
+ * @author liangchangchun
  */
 @RestController
 @RequestMapping("/sys/user")

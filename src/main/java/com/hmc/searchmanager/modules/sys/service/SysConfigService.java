@@ -1,6 +1,6 @@
 package com.hmc.searchmanager.modules.sys.service;
 
-import io.renren.modules.sys.entity.SysConfigEntity;
+import com.hmc.searchmanager.modules.sys.entity.SysConfigEntity;
 
 import java.util.List;
 import java.util.Map;
@@ -8,9 +8,7 @@ import java.util.Map;
 /**
  * 系统配置信息
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年12月4日 下午6:49:01
+ * @author liangchangchun
  */
 public interface SysConfigService {
 	

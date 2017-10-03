@@ -1,15 +1,13 @@
 package com.hmc.searchmanager.modules.oss.cloud;
 
-import io.renren.modules.sys.service.SysConfigService;
-import io.renren.common.utils.ConfigConstant;
-import io.renren.common.utils.Constant;
-import io.renren.common.utils.SpringContextUtils;
+import com.hmc.searchmanager.modules.sys.service.SysConfigService;
+import com.hmc.searchmanager.common.utils.ConfigConstant;
+import com.hmc.searchmanager.common.utils.Constant;
+import com.hmc.searchmanager.common.utils.SpringContextUtils;
 
 /**
  * 文件上传Factory
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-26 10:18
+ * @author liangchangchun
  */
 public final class OSSFactory {
     private static SysConfigService sysConfigService;

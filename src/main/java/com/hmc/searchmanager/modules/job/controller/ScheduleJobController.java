@@ -1,12 +1,12 @@
 package com.hmc.searchmanager.modules.job.controller;
 
-import io.renren.modules.job.entity.ScheduleJobEntity;
-import io.renren.modules.job.service.ScheduleJobService;
-import io.renren.common.utils.PageUtils;
-import io.renren.common.utils.Query;
-import io.renren.common.utils.R;
-import io.renren.common.annotation.SysLog;
-import io.renren.common.validator.ValidatorUtils;
+import com.hmc.searchmanager.modules.job.entity.ScheduleJobEntity;
+import com.hmc.searchmanager.modules.job.service.ScheduleJobService;
+import com.hmc.searchmanager.common.utils.PageUtils;
+import com.hmc.searchmanager.common.utils.Query;
+import com.hmc.searchmanager.common.utils.R;
+import com.hmc.searchmanager.common.annotation.SysLog;
+import com.hmc.searchmanager.common.validator.ValidatorUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -17,9 +17,7 @@ import java.util.Map;
 /**
  * 定时任务
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年11月28日 下午2:16:40
+ * @author liangchangchun
  */
 @RestController
 @RequestMapping("/sys/schedule")

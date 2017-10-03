@@ -1,7 +1,7 @@
 package com.hmc.searchmanager.modules.app.service;
 
 
-import io.renren.modules.app.entity.UserEntity;
+import com.hmc.searchmanager.modules.app.entity.UserEntity;
 
 import java.util.List;
 import java.util.Map;
@@ -9,9 +9,7 @@ import java.util.Map;
 /**
  * 用户
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-23 15:22:06
+ * @author liangchangchun
  */
 public interface UserService {
 

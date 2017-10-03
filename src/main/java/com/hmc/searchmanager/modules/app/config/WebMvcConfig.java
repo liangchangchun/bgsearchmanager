@@ -1,7 +1,7 @@
 package com.hmc.searchmanager.modules.app.config;
 
-import io.renren.modules.app.interceptor.AuthorizationInterceptor;
-import io.renren.modules.app.resolver.LoginUserHandlerMethodArgumentResolver;
+import com.hmc.searchmanager.modules.app.intercepter.AuthorizationInterceptor;
+import com.hmc.searchmanager.modules.app.resolve.LoginUserHandlerMethodArgumentResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
@@ -13,9 +13,7 @@ import java.util.List;
 /**
  * MVC配置
  *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-04-20 22:30
+ * @author liangchangchun
  */
 @Configuration
 public class WebMvcConfig extends WebMvcConfigurerAdapter {

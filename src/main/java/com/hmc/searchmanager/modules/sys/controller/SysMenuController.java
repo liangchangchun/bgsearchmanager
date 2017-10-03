@@ -1,12 +1,12 @@
 package com.hmc.searchmanager.modules.sys.controller;
 
-import io.renren.common.annotation.SysLog;
-import io.renren.common.exception.RRException;
-import io.renren.common.utils.Constant.MenuType;
-import io.renren.common.utils.R;
-import io.renren.modules.sys.entity.SysMenuEntity;
-import io.renren.modules.sys.service.ShiroService;
-import io.renren.modules.sys.service.SysMenuService;
+import com.hmc.searchmanager.common.annotation.SysLog;
+import com.hmc.searchmanager.common.exception.RRException;
+import com.hmc.searchmanager.common.utils.Constant.MenuType;
+import com.hmc.searchmanager.common.utils.R;
+import com.hmc.searchmanager.modules.sys.entity.SysMenuEntity;
+import com.hmc.searchmanager.modules.sys.service.ShiroService;
+import com.hmc.searchmanager.modules.sys.service.SysMenuService;
 import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,9 +22,7 @@ import java.util.Set;
 /**
  * 系统菜单
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年10月27日 下午9:58:15
+ * @author liangchangchun
  */
 @RestController
 @RequestMapping("/sys/menu")

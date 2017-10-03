@@ -1,12 +1,12 @@
 package com.hmc.searchmanager.modules.sys.controller;
 
-import io.renren.common.annotation.SysLog;
-import io.renren.modules.sys.entity.SysConfigEntity;
-import io.renren.modules.sys.service.SysConfigService;
-import io.renren.common.utils.PageUtils;
-import io.renren.common.utils.Query;
-import io.renren.common.utils.R;
-import io.renren.common.validator.ValidatorUtils;
+import com.hmc.searchmanager.common.annotation.SysLog;
+import com.hmc.searchmanager.modules.sys.entity.SysConfigEntity;
+import com.hmc.searchmanager.modules.sys.service.SysConfigService;
+import com.hmc.searchmanager.common.utils.PageUtils;
+import com.hmc.searchmanager.common.utils.Query;
+import com.hmc.searchmanager.common.utils.R;
+import com.hmc.searchmanager.common.validator.ValidatorUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -17,9 +17,7 @@ import java.util.Map;
 /**
  * 系统参数信息
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年12月4日 下午6:55:53
+ * @author liangchangchun
  */
 @RestController
 @RequestMapping("/sys/config")

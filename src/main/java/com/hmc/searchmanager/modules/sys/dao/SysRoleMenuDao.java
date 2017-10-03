@@ -1,6 +1,6 @@
 package com.hmc.searchmanager.modules.sys.dao;
 
-import io.renren.modules.sys.entity.SysRoleMenuEntity;
+import com.hmc.searchmanager.modules.sys.entity.SysRoleMenuEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -8,9 +8,7 @@ import java.util.List;
 /**
  * 角色与菜单对应关系
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年9月18日 上午9:33:46
+ * @author liangchangchun
  */
 @Mapper
 public interface SysRoleMenuDao extends BaseDao<SysRoleMenuEntity> {

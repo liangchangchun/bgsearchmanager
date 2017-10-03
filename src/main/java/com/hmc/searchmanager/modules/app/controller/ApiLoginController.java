@@ -1,10 +1,10 @@
 package com.hmc.searchmanager.modules.app.controller;
 
 
-import io.renren.common.utils.JwtUtils;
-import io.renren.common.utils.R;
-import io.renren.common.validator.Assert;
-import io.renren.modules.app.service.UserService;
+import com.hmc.searchmanager.common.utils.JwtUtils;
+import com.hmc.searchmanager.common.utils.R;
+import com.hmc.searchmanager.common.validator.Assert;
+import com.hmc.searchmanager.modules.app.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,9 +16,7 @@ import java.util.Map;
 /**
  * APP登录授权
  *
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017-03-23 15:31
+ * @author liangchangchun
  */
 @RestController
 @RequestMapping("/app")

@@ -1,7 +1,7 @@
 package com.hmc.searchmanager.modules.job.utils;
 
-import io.renren.common.exception.RRException;
-import io.renren.common.utils.SpringContextUtils;
+import com.hmc.searchmanager.common.exception.RRException;
+import com.hmc.searchmanager.common.utils.SpringContextUtils;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.util.ReflectionUtils;
 
@@ -10,9 +10,7 @@ import java.lang.reflect.Method;
 /**
  * 执行定时任务
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年11月30日 下午12:49:33
+ * @author liangchangchun
  */
 public class ScheduleRunnable implements Runnable {
 	private Object target;
