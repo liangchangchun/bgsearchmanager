@@ -9,7 +9,7 @@ import com.baidu.disconf.client.common.annotations.DisconfFileItem;
 import com.baidu.disconf.client.common.update.IDisconfUpdate;
 
 @Configuration
-@DisconfFile(filename = "jdbc.properties")
+//@DisconfFile(filename = "jdbc.properties")
 public class JdbcProperties implements IDisconfUpdate {
 
     protected static final Logger LOGGER = LoggerFactory.getLogger(JdbcProperties.class);
@@ -22,7 +22,7 @@ public class JdbcProperties implements IDisconfUpdate {
     private String password;
     
     
-    @DisconfFileItem(name = "jdbc.url", associateField = "url")
+   //@DisconfFileItem(name = "jdbc.url", associateField = "url")
 	public String getUrl() {
 		return url;
 	}
@@ -31,7 +31,7 @@ public class JdbcProperties implements IDisconfUpdate {
 		this.url = url;
 	}
 	
-	@DisconfFileItem(name = "jdbc.username", associateField = "username")
+	//@DisconfFileItem(name = "jdbc.username", associateField = "username")
 	public String getUsername() {
 		return username;
 	}
@@ -40,7 +40,7 @@ public class JdbcProperties implements IDisconfUpdate {
 		this.username = username;
 	}
 	
-	@DisconfFileItem(name = "jdbc.password", associateField = "password")
+	//@DisconfFileItem(name = "jdbc.password", associateField = "password")
 	public String getPassword() {
 		return password;
 	}
