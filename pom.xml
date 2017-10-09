@@ -35,7 +35,7 @@
 		<qcloud.cos.version>4.4</qcloud.cos.version>
 		<disconf.version>2.6.31</disconf.version>
 		
-		<lombok.version>1.16.16</lombok.version>
+		<lombok.version>1.16.14</lombok.version>
 		<!-- 版本控制  -->
  		<elasticsearch>5.6.1</elasticsearch>
         <spring-data-elasticsearch.version>3.0.0.RELEASE</spring-data-elasticsearch.version>
@@ -58,14 +58,14 @@
     <scope>provided</scope>
 </dependency>
 
-    <!-- elasticsearch 5.x 依赖 --> 
+    <!-- elasticsearch 5.x 依赖 
    <dependency>
     	<groupId>org.springframework.data</groupId>
     	<artifactId>spring-data-elasticsearch</artifactId>
    		 <version>${spring-data-elasticsearch.version}</version>
 	</dependency>
 	
-	       <!-- Elasticsearch -->
+	     
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
@@ -83,7 +83,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-	
+	--> 
 	<dependency>
             <groupId>com.baidu.disconf</groupId>
             <artifactId>disconf-client</artifactId>

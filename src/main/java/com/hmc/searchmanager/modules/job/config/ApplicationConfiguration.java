@@ -1,5 +1,5 @@
 package com.hmc.searchmanager.modules.job.config;
-
+/*
 import java.util.Arrays;
 import java.util.UUID;
 
@@ -72,3 +72,4 @@ class ApplicationConfiguration {
 				.keywords(Arrays.asList("java", "spring")).location(new GeoPoint(50.0646501D, 19.9449799)).build());
 	}
 }
+*/

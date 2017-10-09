@@ -1,5 +1,5 @@
 package com.hmc.searchmanager.modules.job.documents;
-
+/*
 import static org.springframework.data.elasticsearch.annotations.FieldType.*;
 
 import java.util.List;
@@ -38,3 +38,4 @@ public class Conference {
 	}
 
 }
+*/
